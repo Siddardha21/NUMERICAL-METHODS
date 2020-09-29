@@ -36,7 +36,10 @@ y[3][0] = 0.8660;
 for i in range(1, n):
     for j in range(n - i):
         y[j][i] = y[j + 1][i - 1] - y[j][i - 1];
-print("")
+        
+        print("");
+
+        print("x\t", "y\t", "\tDeltaY", "\tDelta^2Y", "\tDelta^3Y",.....);
 
 # Displaying the forward difference table
 for i in range(n):
